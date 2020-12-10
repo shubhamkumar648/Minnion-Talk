@@ -184,14 +184,25 @@ footer  li a:hover{
     color: gray;
 }
 
-.blog {
+.blogOne {
 
-    text-align: center;
-background-color: rgb(219, 215, 215);
+text-align: left;
+height: 50%;
+width: 50%;
+padding: 1.3rem ;
+margin-top: 15px ;
+margin: 0 auto;
 
-height: 190px;
 }
 
+
+.blogTwo {
+
+text-align: left;
+margin: 0 auto;
+height: 48%;
+width: 50%;
+}
 
 .link-terinary {
 
