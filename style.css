@@ -49,10 +49,16 @@ body {
     padding-bottom: 2rem;
 }
 
-.nav .nav-list {
+.nav .link {
     color: white;
 
 }
+
+.nav .nav-list .link-active{
+	font-weight: 600;
+	font-size: large;
+}
+
 
 .unordered-list {
     list-style: none;
@@ -177,11 +183,12 @@ border: 1px solid var(--primary-color);
 footer  li a {
 
     color: white;
+
 }
 
 footer  li a:hover{
 
-    color: gray;
+    color: red;
 }
 
 .blogOne {
@@ -212,4 +219,6 @@ color: white;
 border: 1px solid var(--primary-color);
 
 }
+
+
 
